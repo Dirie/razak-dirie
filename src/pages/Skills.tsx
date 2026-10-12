@@ -19,9 +19,9 @@ const skillsData = [
     skills: ['PostgreSQL', 'MongoDB', 'Redis', 'MySQL', 'MSSQL']
   },
   {
-    category: 'Cloud & DevOps',
+    category: 'Cloud & DevOpsSec',
     icon: Cloud,
-    skills: ['AWS', 'Docker', 'Kubernetes', 'CI/CD', 'Terraform', 'GCP']
+    skills: ['AWS', 'Docker', 'Kubernetes', 'CI/CD', 'Terraform', 'GCP', "Ceybersecurity"]
   },
   {
     category: 'Programming Languages',

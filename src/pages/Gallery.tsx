@@ -67,6 +67,55 @@ const images = [
   {
     src: "assets/images/16.jpg",
     alt: "Smart device"
+  },
+  {
+    src: "assets/images/17.jpg",
+    alt: "Smart device"
+  }
+,
+  {
+    src: "assets/images/18.jpg",
+    alt: "Smart device"
+  }
+,
+  {
+    src: "assets/images/19.jpg",
+    alt: "Smart device"
+  }
+,
+  {
+    src: "assets/images/20.jpg",
+    alt: "Smart device"
+  }
+,
+  {
+    src: "assets/images/21.jpg",
+    alt: "Smart device"
+  }
+,
+  {
+    src: "assets/images/22.jpg",
+    alt: "Smart device"
+  }
+,
+  {
+    src: "assets/images/23.jpg",
+    alt: "Smart device"
+  }
+,
+  {
+    src: "assets/images/24.jpg",
+    alt: "Smart device"
+  }
+,
+  {
+    src: "assets/images/25.jpg",
+    alt: "Smart device"
+  }
+,
+  {
+    src: "assets/images/26.jpg",
+    alt: "Smart device"
   }
 ];
 

@@ -51,7 +51,7 @@ const Navigation = () => {
           })}
         </div>
       </div>
-      <div className='flex items-end w-full mb-2 cursor-pointer flex-col md:flex-row lg:flex-row justify-start lg:hidden md:hidden'  onClick={showToggle}>
+      <div className='flex items-end w-full mb-2 cursor-pointer flex-col md:flex-row xl:flex-row justify-start xl:hidden md:hidden'  onClick={showToggle}>
           {togle ? <X className='h-8 w-8'/> : <AlignRight className='h-8 w-8'/>}
           
         </div>

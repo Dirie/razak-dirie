@@ -8,27 +8,27 @@ const educationData = [
     type: 'University',
     institution: 'University of the witwatersrand',
     degree: 'Master of Science in Computer Science',
-    year: '2017-2018',
-    description: 'Specialized in Artificial Intelligence and Big data',
+    year: '2020-2022',
+    description: 'Specialized in Artificial Intelligence and Machine Learning',
     icon: GraduationCap,
-    achievements: ['Dean\'s List', 'Research Assistant', 'Published Paper', 'junior lecturer']
+    achievements: ['Dean\'s List', 'Research Assistant', 'AI Lab Lead']
   },
   {
     id: 2,
     type: 'University',
     institution: 'University of the witwatersrand',
     degree: 'Bachelor of Science in Computer Science & Applied math',
-    year: '2016-2017',
+    year: '2016-2020',
     description: 'Focus on Software Engineering and Artificial Intelligence',
     icon: GraduationCap,
-    achievements: ['Merit award', 'Software Development Club Member', 'Hackathon Winner']
+    achievements: ['Merit award']
   },
   {
     id: 3,
     type: 'University',
     institution: 'Benadir University',
     degree: 'Bachelor of Science in Computer Science',
-    year: '2010-2013',
+    year: '2016-2020',
     description: 'Focus on Software Engineering and Systems Design',
     icon: GraduationCap,
     achievements: ['First Class Honors', 'Programming Club President']
@@ -38,8 +38,8 @@ const educationData = [
     type: 'High School',
     institution: 'Kaah high school',
     degree: 'High School Diploma',
-    year: '2009',
-    description: 'Advanced Placement in Mathematics and Science',
+    year: '2012-2016',
+    description: 'Advanced Placement in Mathematics and Computer Science',
     icon: Building,
     achievements: ['First Class Honors', 'Math Olympiad Gold Medal']
   }

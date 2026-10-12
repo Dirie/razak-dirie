@@ -2,7 +2,6 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {blogs} from "../data/blogs";
-import  parse  from 'html-react-parser';
 
 const Blog = () => {
   return (
@@ -34,7 +33,7 @@ const Blog = () => {
                 <CardContent className="p-6">
                   <CardTitle className="mb-2 xs:text-xl">{blog.title}</CardTitle>
                   <p className="text-sm text-muted-foreground mb-2">{blog.date}</p>
-                  <p className="text-muted-foreground">{parse(blog.content.substring(0,50))}</p>
+                  <p className="text-muted-foreground">{blog.content.substring(0,50)}</p>
                 </CardContent>
               </Card>
             </Link>

@@ -93,7 +93,7 @@ export default {
 
       md: { min: "768px", max: "1536px" },
       // => @media (min-width: 768px and max-width: 1023px) { ... }
-      lg: { min: "1537px" },
+      xl: { min: "1537px" },
     },
   },
   plugins: [require("tailwindcss-animate")],

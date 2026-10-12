@@ -6,7 +6,6 @@ const experienceData = [
   {
     id: 1,
     company: 'Origon Inc',
-    link: 'https://www.origon-tech.com',
     position: 'Senior Software Engineer | Senior solution architecture',
     period: '2021 - Present',
     location: 'Mogadishu - Benadir, Somalia',
@@ -14,18 +13,12 @@ const experienceData = [
     achievements: [
       'Architected and implemented scalable backend services using Go and Python',
       'Reduced system latency by 40% through optimization',
-      'Mentored junior developers and led technical interviews',
-      'Designed and deployed microservices architecture for high-traffic applications',
-      'Contributed to open-source projects and community initiatives',
-      'AI and Machine Learning integration for data analysis and prediction models',
-      'big data processing and analytics using Apache Spark and Hadoop',
-      'Implemented DevOps practices for continuous integration and deployment'
+      'Mentored junior developers and led technical interviews'
     ]
   },
   {
     id: 2,
     company: 'Horn Technology',
-    link: 'https://www.horn-technology.com',
     position: 'Software Developer',
     period: '2016 - 2021',
     location: 'Nairobi, East Africa',
@@ -67,9 +60,7 @@ const Experience = () => {
                       <Briefcase className="w-6 h-6 xs:h-3 xs:w-3 text-primary " />
                     </div>
                     <div>
-                    <a href={exp.link} target="_blank" rel="noopener noreferrer" className="hover:underline">
                       <h2 className="text-2xl xs:text-xl font-semibold">{exp.company}</h2>
-                    </a>
                       <p className="text-xl xs:text-sm text-muted-foreground">{exp.position}</p>
                     </div>
                   </div>

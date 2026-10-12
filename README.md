@@ -1,69 +1,126 @@
-# Welcome to your Lovable project
+# Razak Dirie Portfolio
 
-## Project info
+A modern personal portfolio website built with React, TypeScript, Vite, Tailwind CSS, and shadcn/ui components. The site showcases professional experience, education, technical skills, blog posts, gallery highlights, and contact information.
 
-**URL**: https://lovable.dev/projects/6206bc31-3bb9-4f10-8a3b-a7ceeae977c5
+## Overview
 
-## How can I edit this code?
+This project is a responsive portfolio for Abdulrazak A. Dirie, designed to present:
 
-There are several ways of editing your application.
+- About / profile summary
+- Professional experience
+- Education history
+- Skills and technologies
+- Blog articles
+- Photo gallery
+- Contact details
 
-**Use Lovable**
+## Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6206bc31-3bb9-4f10-8a3b-a7ceeae977c5) and start prompting.
+- React 18
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Router
+- Framer Motion
+- shadcn/ui
+- Lucide React
 
-Changes made via Lovable will be committed automatically to this repo.
+## Project Structure
 
-**Use your preferred IDE**
+```bash
+src/
+├── components/
+│   ├── Footer.tsx
+│   ├── Layout.tsx
+│   ├── Navigation.tsx
+│   └── ui/
+├── data/
+│   └── blogs.js
+├── hooks/
+├── lib/
+├── pages/
+│   ├── About.tsx
+│   ├── Blog.tsx
+│   ├── BlogDetail.tsx
+│   ├── Contact.tsx
+│   ├── Education.tsx
+│   ├── Experience.tsx
+│   ├── Gallery.tsx
+│   ├── Home.tsx
+│   ├── Index.tsx
+│   ├── Login.tsx
+│   └── Skills.tsx
+├── App.tsx
+├── index.css
+└── main.tsx
+```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Features
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Responsive layout for desktop and mobile
+- Smooth animated experience using Framer Motion
+- Client-side routing with React Router
+- Reusable UI building blocks from shadcn/ui
+- Blog detail views and gallery sections
+- Clean, modern design with Tailwind styling
 
-Follow these steps:
+## Prerequisites
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Before running the app, make sure you have:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- Node.js 18+
+- npm or Bun
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Getting Started
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+1. Clone the repository
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Start the development server:
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open the local URL shown in the terminal (typically http://localhost:5173)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Available Scripts
 
-**Use GitHub Codespaces**
+```bash
+npm run dev      # Start the Vite development server
+npm run build    # Build the production bundle
+npm run preview  # Preview the production build locally
+npm run lint     # Run ESLint checks
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Production Build
 
-## What technologies are used for this project?
+To create an optimized production build:
 
-This project is built with .
+```bash
+npm run build
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Then preview it with:
 
-## How can I deploy this project?
+```bash
+npm run preview
+```
 
-Simply open [Lovable](https://lovable.dev/projects/6206bc31-3bb9-4f10-8a3b-a7ceeae977c5) and click on Share -> Publish.
+## Notes
 
-## I want to use a custom domain - is that possible?
+- The app uses a custom portfolio design with a glassmorphism-inspired navigation bar and modern card sections.
+- The project includes a blog data source in `src/data/blogs.js`.
+- The portfolio is designed to be easy to customize with your own content, personal information, and project details.
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## License
+
+This project is for personal portfolio use. Update the license as needed for your own deployment or distribution requirements.
+
+## Contact
+
+For inquiries or collaboration, contact the portfolio owner via the information presented in the site or the contact section.

@@ -1,9 +1,7 @@
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, Twitter, User, MapPin, Calendar, BookOpen,MessageCircleMore } from 'lucide-react';
+import { Github, Linkedin, Mail, Twitter, User, MapPin, Calendar, BookOpen } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
-
 const About = () => {
-  const whatsapp = MessageCircleMore
   return (
     <div className="max-w-4xl mx-auto space-y-8 px-4 xs:px-1">
       {/* Hero Section */}
@@ -15,7 +13,7 @@ const About = () => {
       >
         <div className="relative inline-block md:pt-3">
           <img
-            src="assets/images/p1.png"
+            src={"assets/images/p1.jpg"}
             alt="Profile"
             className="rounded-full w-32 h-32 object-cover border-4 border-primary/20"
           />
@@ -110,8 +108,7 @@ const About = () => {
           { icon: Github, href: "https://github.com/dirie", label: "GitHub" },
           { icon: Linkedin, href: "https://www.linkedin.com/in/abdulrazak-a-d-84088611a/", label: "LinkedIn" },
           { icon: Twitter, href: "https://x.com/AbdulrazakDirie", label: "Twitter" },
-          { icon: Mail, href: "mailto:abdulrazak.dirie@gmail.com", label: "Email" },
-          { icon: whatsapp, href: "https://wa.me/+252615991378", label: "whatsapp" }
+          { icon: Mail, href: "mailto:abdulrazak.dirie@gmail.com", label: "Email" }
         ].map(({ icon: Icon, href, label }) => (
           <a
             key={label}
